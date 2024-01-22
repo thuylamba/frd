@@ -29,7 +29,7 @@
 #define FALSE (0)
 #endif  // FALSE
 
-#define FRD_DEST_MAC_ADDR {0x01, 0x80, 0xc2, 0x00, 0x00, 0x0e}
+#define FRD_DEST_MAC_ADDR {0xff, 0xff, 0xff, 0xff, 0xff, 0xff}
 #define FRD_P_PROTO	0x894C
 #define MACLSTR	"%02x:%02x:%02x:%02x:%02x:%02x"
 #define MAC2STR(a) (a)[0], (a)[1], (a)[2], (a)[3], (a)[4], (a)[5]

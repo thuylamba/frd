@@ -14,8 +14,7 @@ CFLAGS += -Wunused-function
 CFLAGS += -Wno-char-subscripts
 CFLAGS += -D_GNU_SOURCE
 LDFLAGS  = -lpthread
-LDFLAGS += -levent
-LDFLAGS += -lpcap -luuid
+LDFLAGS += -lpcap
 MD = mkdir -p
 
 src = $(wildcard *.c) $(wildcard $(SRC_PATH)/*.c) 
